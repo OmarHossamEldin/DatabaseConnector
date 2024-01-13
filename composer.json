@@ -1,0 +1,22 @@
+{
+    "name": "reneknox/database-connector",
+    "description": "sample database connection using oop function for simple tasks",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reneknox\\DatabaseConnector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OmarHossamELdin",
+            "email": "okandil273@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-pdo_mysql": "*",
+        "php": ">=8.0"
+    }
+}
